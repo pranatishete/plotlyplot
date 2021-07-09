@@ -1,58 +1,6 @@
+
 # plotlyplot
 Task
-
-
-Database Tables
-
-# Customer
-
-ID	int AI PK
-CustomerName	longtext
-address	longtext
-city	longtext
-state	longtext
-pincode	longtext
-country	longtext
-CustomerSegment	longtext
-location	longtext
-domain	varchar(45)
-NumberOfWarehouses	int
-
-# Products
-
-ID	int AI PK
-Product	text
-NonConsumableParts	text
-ConsumableParts	text
-
-# Salesorder
-ID	int AI PK
-customer_id	double
-seller_id	double
-OrderDate	longtext
-address	longtext
-city	longtext
-state	longtext
-pincode	longtext
-country	longtext
-location	longtext
-status	longtext
-value	longtext
-DeliveryDate	longtext
-currency	longtext
-DeliveryDays	longtext
-DeliveryChallan	int
-transporter_id	int
-route	varchar(1000)
-
-# Orderedunit
-ID	int AI PK
-ordertype	varchar(455)
-order_id	int
-unitType	varchar(100)
-unit_id	int
-No_of_units	int
-
 
 # Approach 
 
@@ -61,7 +9,14 @@ if there was any product id in sales order I could have been able to join and fi
 
 # Run the file using
 
-Please add the password in the file.
-python run.py
+##  Please add the password in the file. 
 
+command to run the file : python run.py
+
+
+
+
+# Output
+
+![output](https://user-images.githubusercontent.com/37587359/125030073-284a0800-e0a8-11eb-9d9e-f9344aa1be7d.PNG)
 
