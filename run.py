@@ -2,7 +2,7 @@ import mysql.connector as sql
 import plotly.express as px
 import pandas as pd
 
-db_connection = sql.connect(host='localhost', database='projectdf', user='root', password='Peace@98765')
+db_connection = sql.connect(host='localhost', database='projectdf', user='root', password='')
 
 db_cursor = db_connection.cursor()
 

@@ -61,5 +61,7 @@ if there was any product id in sales order I could have been able to join and fi
 
 # Run the file using
 
+Please add the password in the file.
 python run.py
+
 
